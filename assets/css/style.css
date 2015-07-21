@@ -1,0 +1,22 @@
+@font-face {
+      font-family: GoodDog;
+      src:url(/assets/fonts/GoodDog.otf);
+      font-weight: bold;
+    }
+body {
+    font-family: GoodDog;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+  }
+h2 {
+  font-size: 60px;
+}
+
+.posttitle_pugilat{
+    text-align: left;
+  }
+
+.arrow_pugilat{
+    vertical-align: middle;
+  }

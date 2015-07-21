@@ -1,0 +1,11 @@
+<nav class="pagination" role="pagination">
+  {{#if next}}
+      <a href="{{page_url next}}"><img src="/assets/images/left-arrow.svg"
+      class="arrow_pugilat" alt="Pugilat suivant."/></a>
+  {{/if}}
+    <span class="page-number">Pugilat n°{{page}} sur {{pages}} et {{type}}</span>
+  {{#if prev}}
+    <a href="{{page_url prev}}"><img src="/assets/images/right-arrow.svg"
+    class="arrow_pugilat" alt="Pugilat suivant."/></a>
+  {{/if}}
+</nav>
