@@ -5,15 +5,11 @@
   <article class="article_pugilat" role="article"
     itemscope itemtype="http://schema.org/Article">
     <div class="row">
-
-    <div class="col-md-2">
-      {{#if pagination.next}}
-      <a href="{{page_url pagination.next}}"><img src="/assets/images/left-arrow.svg"
-      class="arrow_pugilat" alt="Pugilat suivant."/></a>
-      {{/if}}
+      {{pagination}}
     </div>
+    <div class="row">
     {{#foreach posts}}
-    <div class="col-md-8">
+    <div class="col-md-12">
       <header class="postheader_pugilat">
         <h2 class="posttitle_pugilat">{{{title}}}</h2>
       </header>
@@ -23,12 +19,6 @@
       </div>
     </div>
     {{/foreach}}
-    <div class="col-md-2">
-      {{#if pagination.prev}}
-        <a href="{{page_url pagination.prev}}"><img src="/assets/images/right-arrow.svg"
-        class="arrow_pugilat" alt="Pugilat suivant."/></a>
-      {{/if}}
-    </div>
   </div>
   </article>
 </main>

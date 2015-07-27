@@ -19,4 +19,21 @@ h2 {
 
 .arrow_pugilat{
     vertical-align: middle;
+    width: 5vw;
   }
+
+  .postcontent_pugilat > p > img{
+    height: 50vmin;
+  }
+
+.header_pugilat {
+  height: 20vmin;
+}
+
+.posttitle_pugilat{
+  font-size: 7vmin;
+}
+
+.arrow_center{
+  margin-right: 8vmin;
+}
