@@ -1,25 +1,25 @@
 {{!< default}}
 <div class="container">
-{{> header}}
-<main class="main_pugilat" role="main">
-  <article class="article_pugilat" role="article"
+  {{> header}}
+  <main class="main_pugilat" role="main">
+    <article class="article_pugilat" role="article"
     itemscope itemtype="http://schema.org/Article">
     <div class="row">
       {{pagination}}
     </div>
     <div class="row">
-    {{#foreach posts}}
-    <div class="col-md-12">
-      <header class="postheader_pugilat">
-        <h2 class="posttitle_pugilat">{{{title}}}</h2>
-      </header>
+      {{#foreach posts}}
+      <div class="col-md-12">
+        <header class="postheader_pugilat">
+          <h2 class="posttitle_pugilat">{{{title}}}</h2>
+        </header>
 
-      <div class="postcontent_pugilat">
-        <p>{{{content}}}</p>
+        <div class="postcontent_pugilat">
+          <p>{{{content}}}</p>
+        </div>
       </div>
+      {{/foreach}}
     </div>
-    {{/foreach}}
-  </div>
   </article>
 </main>
 </div>
